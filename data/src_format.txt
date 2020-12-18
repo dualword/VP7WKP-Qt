@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+
+                         The Anatomy of an .src File
+
+-------------------------------------------------------------------------------
+
+
+
+1. Introduction
+
+This document describes the .src file format, which is used by the vp7wkp
+program to obtain information about the radioactive nuclei. We hope that it
+will help you with "designing" your own radioactive nuclei.
+Comments and questions should be sent to Alexandru Csete <alex@vp7.dk>.
+
+
+
+2. What Do You Need?
+
+I order to create a new (realistic) radioactive material, you need to know
+
+  * the mass in atomic mass units (1 amu = 1.6606e-27 kg)
+  * the half life in seconds
+  * the (major) decay modes with energies and branching ratios
+  * 60x60 pixels .xpm file (preferably two files) 
+
+Example:
+
+  Nucleus              Half life                Decay modes
+------------------------------------------------------------------------
+  Carbon 14      5570 years (1.76e11 sec)       beta (100%) 0.158 MeV
+  Potassium 42   12.4 hours (44640 sec)         beta (82%) 3.55 MeV
+                                                beta (18%) 2.03 MeV
+                                                gamma (18%) 1.52 MeV
+
+
+From the example you see, that Carbon 14 only has one decay mode, while
+Potassium 42 has two modes (beta) and one of them is a decay to an
+excited state, which also decays by emission of a gamma quantum.
+Many radioactive nuclei have many more decay modes, but there is only
+room for 3 alpha, 3 beta and 3 gamma modes. We found this sufficient for
+most radioactive nuclei. You won't get much out of a decay mode with a
+branching ratio of 0.1% or less...
+
+You can of course make up some random modes, masses and half lifes to
+play around.
+
+The .xpm file(s) are used to represent the material in the user interface
+of the program. You will need two pixmaps: One "off" pixmap and one "on"
+pixmap. The included "off" pixmaps are actually just some greyscale copies
+of the "on" pixmaps. There is a sample for each: radion.xpm and radiof.xpm,
+you can use these so you don't have to start from scratch.
+If the file(s) you specify does not exist, a default pixmap will be displayed
+instead.
+
+
+
+3. The .src File Anatomy
+
+The first line in the file is the name of the nucleus. It may contain up to
+30 characters. Please, don't use escape codes or sequences. It will probably
+make the program look and behave weird.
+
+The second line contains the filename of the "on" pixmap and the third line
+contains the filename of the "off" pixmap. These filenames can be identical
+but you have to include both lines!
+
+The fourth line contains the mass of the nucleus in atomic mass units (amu),
+the amount (weight) of the material you have in grams and the half life in
+seconds. These three numbers should be separated with blank (other separators
+will probably work, but use them at your own risk).
+If you have 1 micro-gram Plutonium 239 this line would look like:
+
+239.05 1.0e-6 7.66e11
+
+
+After the fourth line follow the decay modes. There are nine lines: 3 alpha,
+3 beta and 3 gamma. Each line has to contain the energy in MeV and the
+branching ratio separated with blanks. If the nucleus concerned has less modes
+ than there is space to, you have to fill it with zeroes. For our beloved
+plutonium it is (three alpha and one gamma):
+
+5.15 0.72
+5.12 0.17
+5.10 0.11
+0.0 0.0
+0.0 0.0
+0.0 0.0
+0.013 0.17
+0.0 0.0
+0.0 0.0
+
+
+After the last line you can write some additional text which will be shown
+in the toolbox window.
+
+So the complete file for plutonium 239 becomes:
+
+Plutonium 239 (Pu239)
+pu239on.xpm
+pu239off.xpm
+239.05 1.0e-6 7.66e11
+5.15 0.72
+5.12 0.17
+5.10 0.11
+0.0 0.0
+0.0 0.0
+0.0 0.0
+0.013 0.17
+0.0 0.0
+0.0 0.0
+Here comes any additional information you might want
+to add to your own sourcefile.
+
+
+If you are in doubt of anything, take a look at the included .src files. They
+won't bite you.
+GOOD LUCK with designing your radioactive nuclei!!!!
+
+
+Alexandru Csete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+
+*******************************************************************************
+Sun Jun 11 23:13:21 2000
+
+
+FIT:    data read from 'beta.dat' using 1:2:3
+        #datapoints = 6
+function used for fitting: f(x) = a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 0.622974
+variance of residuals (reduced chisquare) = WSSR/ndf : 0.388097
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.114209         +/- 0.04096      (35.86%)
+b               = 1.359            +/- 0.1913       (14.07%)
+c               = -0.150313        +/- 0.05228      (34.78%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.770  1.000 
+c               0.586 -0.811  1.000 
+
+
+
+
+
+

@@ -1,0 +1,1052 @@
+
+
+*******************************************************************************
+Thu Aug 10 20:31:04 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 317452            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 66.0897
+
+initial set of free parameter values
+
+a               = 0.1
+b               = 10
+c               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4019.65
+rel. change during last iteration : -1.53293e-13
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 14.9437
+variance of residuals (reduced chisquare) = WSSR/ndf : 223.314
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -3.72094         +/- 0.6915       (18.58%)
+b               = 21.3272          +/- 1.96         (9.192%)
+c               = -0.184082        +/- 0.03628      (19.71%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.729  1.000 
+c               0.444 -0.617  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:33:14 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Aug 10 20:33:21 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.2654e+08        delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 376.23
+
+initial set of free parameter values
+
+a               = -1
+b               = 17
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 11992.2
+rel. change during last iteration : -2.94507e-11
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 25.1231
+variance of residuals (reduced chisquare) = WSSR/ndf : 631.169
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.10162          +/- 0.1886       (17.12%)
+b               = 5.06419          +/- 0.8579       (16.94%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b               0.998  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:33:45 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Aug 10 20:34:11 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 12222.7           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 307.216
+
+initial set of free parameter values
+
+a               = 1.10162
+b               = 5.06419
+c               = -0.1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 10746.6
+rel. change during last iteration : -3.40892e-06
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 24.4343
+variance of residuals (reduced chisquare) = WSSR/ndf : 597.036
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.06411          +/- 0.1852       (17.41%)
+b               = 4.89312          +/- 0.8428       (17.22%)
+c               = 1.12973          +/- 0.7822       (69.23%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.998  1.000 
+c              -0.140 -0.141  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:35:09 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 369973            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 66.2371
+
+initial set of free parameter values
+
+a               = 1.06411
+b               = 4.89312
+c               = 1.12973
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4968
+rel. change during last iteration : -3.05728e-14
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 16.6132
+variance of residuals (reduced chisquare) = WSSR/ndf : 276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -1.92555         +/- 0.4306       (22.36%)
+b               = 18.3339          +/- 1.825        (9.954%)
+c               = -0.152616        +/- 0.03819      (25.02%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.575  1.000 
+c               0.324 -0.556  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:35:41 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 282072            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 66.1728
+
+initial set of free parameter values
+
+a               = -1.92555
+b               = 18.3339
+c               = -0.152616
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3664.6
+rel. change during last iteration : -8.44427e-06
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 14.2685
+variance of residuals (reduced chisquare) = WSSR/ndf : 203.589
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -17.1086         +/- 1.492        (8.719%)
+b               = 7.05533          +/- 0.6463       (9.16%)
+c               = -0.787082        +/- 0.07868      (9.996%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.714  1.000 
+c               0.938 -0.673  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:36:12 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 5.43472e+06       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 59.3311
+
+initial set of free parameter values
+
+a               = -17.1086
+b               = 7.05533
+c               = -0.787082
+d               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2905.27
+rel. change during last iteration : -2.50548e-10
+
+degrees of freedom (ndf) : 17
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.0728
+variance of residuals (reduced chisquare) = WSSR/ndf : 170.898
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.66881          +/- 0.6535       (39.16%)
+b               = -12.2375         +/- 3.39         (27.7%)
+c               = 25.5443          +/- 2.381        (9.321%)
+d               = -0.229447        +/- 0.03637      (15.85%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      d      
+a               1.000 
+b              -0.984  1.000 
+c               0.694 -0.776  1.000 
+d              -0.488  0.550 -0.727  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:36:43 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 1.67842e+12       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 6390.19
+
+initial set of free parameter values
+
+a               = 1.66881
+b               = -12.2375
+c               = 25.5443
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3718.82
+rel. change during last iteration : -5.71916e-13
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 14.3736
+variance of residuals (reduced chisquare) = WSSR/ndf : 206.601
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -3.54676         +/- 0.6485       (18.28%)
+b               = 20.5623          +/- 1.785        (8.683%)
+c               = -0.00184523      +/- 0.000341     (18.48%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.712  1.000 
+c               0.395 -0.556  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:36:59 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 8.43104e+07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 633249
+
+initial set of free parameter values
+
+a               = -3.54676
+b               = 20.5623
+c               = -0.00184523
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 3879.7
+rel. change during last iteration : -1.39295e-07
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 14.6812
+variance of residuals (reduced chisquare) = WSSR/ndf : 215.539
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -3.54676         +/- 0.6578       (18.55%)
+b               = 20.5623          +/- 1.798        (8.746%)
+c               = -1.84486e-05     +/- 3.465e-06    (18.78%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.707  1.000 
+c               0.379 -0.538  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:37:24 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 18037.4           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 548410
+
+initial set of free parameter values
+
+a               = -3.54676
+b               = 20.5623
+c               = -1.84486e-05
+d               = -0.229447
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 3851.27
+rel. change during last iteration : -1.17943e-06
+
+degrees of freedom (ndf) : 17
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 15.0514
+variance of residuals (reduced chisquare) = WSSR/ndf : 226.545
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -3.54927         +/- 0.7244       (20.41%)
+b               = 20.5946          +/- 2.15         (10.44%)
+c               = -1.34109e-05     +/- 1.556e-05    (116%)
+d               = -0.0498013       +/- 0.16         (321.2%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      d      
+a               1.000 
+b              -0.752  1.000 
+c              -0.275  0.395  1.000 
+d               0.365 -0.514 -0.974  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:38:32 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 7.17002e+07       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 307.637
+
+initial set of free parameter values
+
+a               = -3.54927
+b               = 20.5946
+c               = -1.34109e-05
+
+After 386 iterations the fit converged.
+final sum of squares of residuals : 2051.41
+rel. change during last iteration : -6.04045e-06
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 10.6756
+variance of residuals (reduced chisquare) = WSSR/ndf : 113.967
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 16.1335          +/- 1.953        (12.1%)
+b               = 0.0267469        +/- 0.02118      (79.18%)
+c               = -3.07933         +/- 1.226        (39.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.868  1.000 
+c              -0.934 -0.988  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:38:58 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 751653            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.2387
+
+initial set of free parameter values
+
+a               = 16.1335
+b               = 0.0267469
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2982.86
+rel. change during last iteration : -5.04028e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 12.5297
+variance of residuals (reduced chisquare) = WSSR/ndf : 156.993
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.9408          +/- 0.9277       (7.169%)
+b               = -1.29076         +/- 0.09978      (7.731%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:39:11 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 523565            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 80.8108
+
+initial set of free parameter values
+
+a               = 12.9408
+b               = -1.29076
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 25401.3
+rel. change during last iteration : -1.3241e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 36.5638
+variance of residuals (reduced chisquare) = WSSR/ndf : 1336.91
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 5.62472          +/- 2.281        (40.56%)
+b               = 0.0510563        +/- 0.06995      (137%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.055  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:39:36 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 104262            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.2387
+
+initial set of free parameter values
+
+a               = 5.62472
+b               = 0.0510563
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2982.86
+rel. change during last iteration : -3.00238e-06
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 12.5297
+variance of residuals (reduced chisquare) = WSSR/ndf : 156.993
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.9408          +/- 0.9277       (7.169%)
+b               = -1.29076         +/- 0.09978      (7.731%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:39:52 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 2982.86           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.2387
+
+initial set of free parameter values
+
+a               = 12.9408
+b               = -1.29076
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2982.86
+rel. change during last iteration : 0
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 12.5297
+variance of residuals (reduced chisquare) = WSSR/ndf : 156.993
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.9408          +/- 0.9277       (7.169%)
+b               = -1.29076         +/- 0.09978      (7.731%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:40:02 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 165275            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.8768
+
+initial set of free parameter values
+
+a               = 12.9408
+b               = -1.29076
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4085.5
+rel. change during last iteration : -1.9335e-08
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 14.6638
+variance of residuals (reduced chisquare) = WSSR/ndf : 215.026
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.0727          +/- 1.032        (8.546%)
+b               = -1.9153          +/- 0.1712       (8.936%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.987  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:40:14 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 46874.8           delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.488
+
+initial set of free parameter values
+
+a               = 12.0727
+b               = -1.9153
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3450.32
+rel. change during last iteration : -5.56246e-09
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.4757
+variance of residuals (reduced chisquare) = WSSR/ndf : 181.596
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.4827          +/- 0.9699       (7.77%)
+b               = -1.57096         +/- 0.1293       (8.234%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.980  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:41:04 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 630313            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 66.6533
+
+initial set of free parameter values
+
+a               = 12.4827
+b               = -1.57096
+c               = -3.07933
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3445.75
+rel. change during last iteration : -3.67388e-09
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.8358
+variance of residuals (reduced chisquare) = WSSR/ndf : 191.43
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.4329          +/- 1.047        (8.42%)
+b               = 0.0712266        +/- 0.461        (647.2%)
+c               = -1.56448         +/- 0.1393       (8.902%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.982  0.301  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:41:21 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 3435.5            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 66.5538
+
+initial set of free parameter values
+
+a               = 12.4329
+b               = 0.0712266
+c               = -1.56448
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3169.91
+rel. change during last iteration : -7.96164e-06
+
+degrees of freedom (ndf) : 18
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.2705
+variance of residuals (reduced chisquare) = WSSR/ndf : 176.106
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.756           +/- 1.669        (15.51%)
+b               = 2.62902          +/- 2.083        (79.25%)
+c               = -1.3757          +/- 0.2004       (14.57%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.820  1.000 
+c              -0.990  0.772  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:41:35 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 4.33217e+06       delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.488
+
+initial set of free parameter values
+
+a               = 10.756
+b               = 2.62902
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3450.32
+rel. change during last iteration : -2.16235e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.4757
+variance of residuals (reduced chisquare) = WSSR/ndf : 181.596
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.4827          +/- 0.9699       (7.77%)
+b               = -1.57096         +/- 0.1293       (8.234%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.980  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:41:52 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 8632.6            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.3748
+
+initial set of free parameter values
+
+a               = 12.4827
+b               = -1.57096
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3241.71
+rel. change during last iteration : -1.26622e-09
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.062
+variance of residuals (reduced chisquare) = WSSR/ndf : 170.616
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.6624          +/- 0.9504       (7.505%)
+b               = -1.45223         +/- 0.1162       (8.005%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.977  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:42:02 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 262074            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 80.8678
+
+initial set of free parameter values
+
+a               = 12.6624
+b               = -1.45223
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3244.12
+rel. change during last iteration : -3.01785e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 13.0669
+variance of residuals (reduced chisquare) = WSSR/ndf : 170.743
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 14.5657          +/- 1.094        (7.509%)
+b               = -0.562748        +/- 0.05304      (9.424%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.882  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:44:36 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 144211            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 80.8108
+
+initial set of free parameter values
+
+a               = 14.5657
+b               = -0.562748
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 25401.3
+rel. change during last iteration : -1.97684e-07
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 36.5638
+variance of residuals (reduced chisquare) = WSSR/ndf : 1336.91
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 5.62472          +/- 2.281        (40.56%)
+b               = 0.0510563        +/- 0.06995      (137%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.055  1.000 
+
+
+*******************************************************************************
+Thu Aug 10 20:44:56 2000
+
+
+FIT:    data read from 'gamma2.dat' using 1:2:3
+        #datapoints = 21
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+Iteration 0
+WSSR        : 104262            delta(WSSR)/WSSR   : 0
+delta(WSSR) : 0                 limit for stopping : 1e-05
+lambda	  : 81.2387
+
+initial set of free parameter values
+
+a               = 5.62472
+b               = 0.0510563
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2982.86
+rel. change during last iteration : -3.00238e-06
+
+degrees of freedom (ndf) : 19
+rms of residuals      (stdfit) = sqrt(WSSR/ndf)      : 12.5297
+variance of residuals (reduced chisquare) = WSSR/ndf : 156.993
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 12.9408          +/- 0.9277       (7.169%)
+b               = -1.29076         +/- 0.09978      (7.731%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.971  1.000 

@@ -1,0 +1,14 @@
+#
+# alpha.dat: Range of alpha particles in air
+# You can fit this data to a seocnd degree polynomial (see alpha.fit)
+#
+# E(MeV) air(mm) s(air)
+
+2.0	9.6	0.5
+3.0	15.0	0.4
+4.0	21.0	0.5
+5.0	27.6	0.5
+6.0	41.0	0.5
+7.0	50.0	0.5
+8.0	69.6	0.5
+9.0	81.0	0.5

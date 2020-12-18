@@ -1,0 +1,177 @@
+2001-12-27;	Alexandru Csete <alexc@ifa.au.dk>
+	* Makefile, src/source.c: Applied patch from Antoine
+	Sirinelli (fixes crash at startup).
+	
+2001-05-04; Niels Bassler <bassler@vp7.dk>
+	* pixmaps/: Added kool pixmaps, created by
+	Elmo Schreder <esch00@control.auc.dk>
+	
+2001-05-01; Alexandru Csete <alexc@ifa.au.dk>
+	* src/miniterm.c, src/miniterm.h: VGA 16 color support added.
+	Use miniterm_printcol to print text in other than the
+	default colors.
+	
+2001-05-01; Niels Bassler <bassler@vp7.dk>
+	* src/counter.c: Added a smoothing-gadget for the counter
+	when in activity mode. Some performance fixes.
+	* src/counter.c, src/main.c: task #30459
+	
+2001-04-29; Alexandru Csete <alexc@ifa.au.dk>
+	* src/miniterm.c: Basic functionality implemented.
+	* src/source.c: Prints text to miniterm instead of stdout.
+	* src/myrandom.c: Prints text to miniterm instead of stdout.
+	
+2001-04-28; Alexandru Csete <alexc@ifa.au.dk>
+	* src/miniterm.c: New text widget for "funny output" instead of
+	stdout. Use the publice function miniterm_print series of
+	functions to add one line of text.
+	* src/main.c: mca removed temporarly and shield controls moved
+	outside away from the counter.
+	* src/ledbox.c: Changed names from *_ledbox to ledbox_*
+	* src/mca.c: Changed names from *_mca to mca_*
+	
+2001-04-27; Alexandru Csete <alexc@ifa.au.dk>
+	* WKP-0.4.5: Released.
+
+2001-04-25;Alexandru Csete <alexc@ifa.au.dk>
+	* src/source.c: added patch #418660 (exp->expm1).
+	* src/shield.c: fixed bug #417672 (Al shield).
+	* src/Makefile: moved out of src/
+	* data/: added patch #418661.
+	
+2001-04-24; Alexandru Csete <alexc@ifa.au.dk>
+	* vp7wkp.cfg: path to sources fixed (bug #418646).
+	
+2001-04-16; 0.4.4 by Niels Bassler <bassler@vp7.dk>
+	* src/counter.c: bugfix regarding state of power button.
+	Some minor implementation improvements.
+	* src/main.c: fixed warning when compiling wKp.
+	* pixmaps/: minor changes in some pixmaps.
+
+2001-03-22; 0.4.3 by Niels Bassler <bassler@vp7.dk>
+	* src/counter.c: major cleanup in source code.
+	Bugfix regarding the last digit, when in
+	activity mode. Bugfix regarding some rounding errors.
+	The counter now supports 64-bit integers internally
+	and "new_counts" may now be 32-bit integers.
+	Default state of counter can be defined in counter.h
+	Internal timer added (is working exact, and makes the
+	counter more generic).
+	* src/main.c: The "real" time is passed to the "dodecay" function.
+	* pixmaps/: new digits for counter and a more generic 
+	unit for the [activity] mode.
+	
+2001-02-06; 0.4.2 by Alexandru Csete <alex@vp7.dk>
+	* pixmaps/: Led pixmaps made transparent
+	* src/: Some perfomance fixes.
+	
+2001-01-20; 0.4.1 by Alexandru Csete <alex@vp7.dk>
+	* Makefile: Modified compiler options to compile OK
+	with unofficial gcc shipped with Red Hat 7.0
+	* vp7wkp-0.4.*/: Directory structure modified a bit
+	* README: File created containing some installation
+	instructions.
+	
+2000-08-11; 0.4 by Alexandru Csete <alex@vp7.dk>
+	* src/shield.c: is fully implemented including possibility to
+	adjust distance between source and detector.
+	* src/shield.c: set_* renamed to toggle_*
+	* src/shield.c: gtk_widget_show( children ) -> gtk_widget_show_all( parent )
+	* src/shield.c: Packing has been changed from h/v boxes to a table.
+	* src/source.c: gtk_widget_show( children ) -> gtk_widget_show_all( parent )
+	
+2000-06-19; 0.3.7 by Alexandru Csete <alex@vp7.dk>
+
+	* src/shield.c: Range calculation of beta particles in Al
+	has been implemented. The thickness of the Al shield is
+	currently set to 1mm but will soon be implemented as 
+	user definable. Pb absorbes beta particles completely.
+
+2000-06-03; 0.3.6 by Alexandru Csete <alex@vp7.dk>
+
+	* src/shield.c: Paper implemented (it absorbes alpha
+	particles completely. Alpha particles are also absorbed
+	if Al or Pb shields are set. Range calculation of alpha
+	particles in air is also implemented. The distance
+	between the source and detector is set to 1mm but will
+	soon be implemented as user definable.
+
+	* docs/*: Contains some scattered documents.
+	
+2000-06-01; 0.3.4 by Alexandru Csete <alex@vp7.dk>
+
+	* src/shield.c: New remote controls added for shields.
+
+	* src/cbox.c: Has been completely removed as well as the
+	dependecies from the other files.
+
+	* src/mca.c: aka. Multi Channel Analyser - what every nuclear
+	physicist dream of - has been created but not implemented.
+	It displays a nice pixmap though.
+
+	
+2000-05-17; 0.3.1 by Alexandru Csete <alex@vp7.dk>
+
+	Following changes made as first step in implementing
+	shields and deleting cbox:
+	
+	* src/gfx.c: shield drawing callback functions modified
+	so that they take an integer as parameter (shield
+	set/not set) instead of a pointer.
+
+	* src/source.c: does not use cbox anymore
+
+	* src/cbox.c: modified to do the callback in gfx.c with
+	correct parameters. The source setting callbacks have
+	been removed as they have become obsolete from version
+	0.3.0.
+	
+
+2000-04-26; 0.3.0 by Alexandru Csete <alex@vp7.dk>
+
+	* src/source.c: Has now place for 10 sources. The source
+	data are read from .src files in the ./sources/
+	directory. See the src_format.txt file for more
+	information.
+	The sources are placed in buttons.
+	
+	
+2000-04-25; 0.2.0 by The VP7 Programming Team <software@vp7.dk>
+
+	* skab.c: Has been removed and the functions moved to
+	source.c.
+
+	* source.c: Completely rewritten to give more realistic
+	decay (with energies). The other modules have been
+	modified to be compatible with the new datastructures.
+
+	* *.xpm: Moved to a separate directory ./pixmaps/
+
+
+2000-04-05; 0.1.2 by Alexandru Csete <alex@vp7.dk>
+
+	* source.c: Added some randomness to the decay. Far from
+	completed! 
+
+	* myrandom.c: initmyrandom() fixed; works properly
+	* main.c: Now uses initmyrandom() and a global timestep var
+
+	
+1999-12-19; 0.1.1 by Alexandru Csete <alex@vp7.dk>
+
+	* ledbox.c: Added some fancy blinking leds but not final.
+
+	* main.c has got the "Sellafield" video camera connection
+	removed, which has been added to ledbox.
+
+
+	
+1999-12-15; 0.1.0 The VP7 Programming Team <software@vp7.dk>
+
+	* All modules compiled and linked. The program is functional
+	and has been demonstrated.
+
+	* shield.c: Shields are not implemented.
+        
+	* source.c: The decay is not random but follows a theoretical
+	exponential decay.

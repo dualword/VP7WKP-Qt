@@ -1,0 +1,20 @@
+#
+# beta.dat: Range of beta particles in aluminium
+# You can fit this data to ??? (see beta.fit)
+#
+# Note that beta particles have finite range in air as well,
+# but it is much larger than the distances we have in the vp7wkp
+#
+# E(MeV) Al(mm) s(al)
+
+0.2	0.13	0.05
+0.7	0.7	0.3
+1.0	1.30	0.5
+2.0	3.0	0.5
+4.5	10.0	2.0	
+10.0	23.0	5.0
+
+
+
+
+

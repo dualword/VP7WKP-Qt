@@ -1,0 +1,8 @@
+# trying gtkrc's for miniterm
+style "terminal"
+{
+	bg[NORMAL] = { 0.0, 0.0, 0.0 }
+	fg[NORMAL] = { 0.0, 0.8, 0.0 }
+}
+
+class "GtkText" style "terminal"

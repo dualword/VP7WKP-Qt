@@ -1,0 +1,24 @@
+Plutonium 239 (Pu239)
+./pixmaps/pu239on.xpm
+./pixmaps/pu239off.xpm
+239.05 1.0e-6 7.66e11
+5.157 0.73
+5.144 0.15
+5.105 0.11
+0.0 0.0
+0.0 0.0
+0.0 0.0
+0.051 0.00027
+0.039 0.0001
+0.129 0.00006
+Plutonium 239 can be can be produced in large
+quantities by neutron bombardement of Uranium
+238:
+
+        U(238) + n  ->  U(239)
+        U(239)      ->  Np(239) + e
+        Np(239)     ->  Pu(239) + e
+
+Due to its relatively short half life (24300
+years) Plutonium is a highly radioactive
+material.

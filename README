@@ -1,0 +1,21 @@
+How to Build the VP7 W.K.P.
+---------------------------
+
+As you might have noticed, the VP7 W.K.P. does not (yet) support 
+the standard building method (configure, make, make install).
+
+There is a simple Makefile though. To build the program, just type
+"make". If you have Gtk installed all
+right, it should compile without problems. The created binary is 
+placed in the main directory containing the package.
+
+The "data" directory contains some predefined radioactive sources.
+You should edit the "vp7wkp.cfg" file to contain a list of sources
+that you want to load when the program starts.
+
+Sorry for this primitive way things work, but this program is still
+under development with a somehow low priority.
+If you feel that this is a program, that might become usefull to you
+in one way or other, tell us and we might revise our priority list.
+
+Alexandru Csete, VP7
